@@ -1,0 +1,7 @@
+pdfplumber
+nltk
+//sentence-transformers
+//tf-keras
+//faiss-cpu
+
+
