@@ -1,0 +1,11 @@
+pdfplumber
+nltk
+flask
+transformers
+torch
+sentence-transformers
+faiss-cpu
+
+
+
+
