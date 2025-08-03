@@ -1,0 +1,70 @@
+.app-header {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.university-info h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.ai-assistant {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 0.9rem;
+  color: #666;
+  margin-left: 6rem;
+}
+
+.header-divider {
+  height: 1px;
+  background-color: #ddd;
+  margin: 1rem 0;
+}
+
+.live-questions {
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 1rem;
+}
+
+.university-name {
+  font-size: 1.5rem;
+  color: #333;
+font-weight: bold;
+display: inline-block;
+vertical-align: middle;
+margin-left: 2rem;
+margin-left: 1rem;
+margin-top: 0.1px;
+}
+
+.university-logo {
+    display: inline-block;
+    vertical-align: middle;
+    height: 75px;
+    margin-right: 1rem;
+    margin-top: 10px;
+    width: 75px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    align-self: center;
+    
+    }
+
+.live-questions h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}

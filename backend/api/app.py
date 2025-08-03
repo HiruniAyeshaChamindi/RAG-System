@@ -1,12 +1,20 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import sys
 import os
+
+# Make sure the app/ directory is accessible
 sys.path.append(os.path.abspath("../app"))
 
 from rag_engine import RAGEngine
 
-
+# Initialize Flask app
 app = Flask(__name__)
+
+# ✅ Allow CORS from any origin (good for local development)
+CORS(app, resources={r"/*": {"origins": "*"}})
+
+# Initialize RAG engine
 rag = RAGEngine()
 
 @app.route("/ask", methods=["POST"])
